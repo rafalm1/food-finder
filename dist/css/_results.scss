@@ -1,0 +1,78 @@
+main {
+  .results {
+    font-family: 'Open Sans', sans-serif;
+
+    .results-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      list-style: none;
+
+      li {
+        margin-bottom: 30px;
+        width: 250px;
+        text-align: center;
+        padding: 5px;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+
+        a {
+          text-decoration: none;
+          color: #000;
+
+          .results__fig {
+            img {
+              margin-top: 5px;
+              width: 90%;
+              height: 200px;
+              border-radius: 2%;
+            }
+          }
+
+          .results__name {
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+          }
+
+          .results__author {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .results-pages {
+      margin-top: 20px;
+      padding: 0 50px;
+
+      &::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+    }
+  }
+}
+
+.loader {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.loader {
+  .fa-spinner {
+    font-size: 45px;
+    color: color(loader);
+    animation: rotate 1.5s infinite linear;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
