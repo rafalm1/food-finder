@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../img/restaurant_icons.png");
+}
+
 body header nav {
   background: #fff5d7;
   display: -webkit-box;
@@ -156,6 +161,7 @@ body main .results .results-list {
 }
 
 body main .results .results-list li {
+  background-color: #fff;
   margin-bottom: 30px;
   width: 250px;
   text-align: center;
@@ -234,7 +240,7 @@ body .btn-inline {
   color: #ff5e6c;
   font-size: 15px;
   border: none;
-  background-color: #fff5d7;
+  background-color: #222933;
   padding: 6px 16px;
   border-radius: 50px;
   cursor: pointer;
@@ -260,7 +266,7 @@ body .btn-inline span {
 
 body .btn-inline:hover {
   color: #ff919b;
-  background-color: #fff6dc;
+  background-color: #14181f;
 }
 
 body .btn-inline:focus {
@@ -486,7 +492,6 @@ body .favorite .favorite-list li .recipe-img-box .recipe-favorite-delete .fa-tim
 
 body .favorite .favorite-list li .favorite-data {
   margin: 10px 0;
-  color: #000;
 }
 
 body .favorite .favorite-list li .favorite-data .favorite-name {
@@ -519,7 +524,11 @@ body .favorite.active {
   }
   body .favorite.active {
     background: rgba(0, 0, 0, 0.8);
+    color: #fff;
     width: 40%;
+  }
+  body .favorite-data {
+    color: #fff;
   }
   body .menu-cancel-icon.show {
     color: #ff5e6c;

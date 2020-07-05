@@ -16,6 +16,8 @@ a {
 }
 
 body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url('../img/restaurant_icons.png');
   @import './header';
   @import './results';
   @import './pagination';

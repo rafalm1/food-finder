@@ -14,7 +14,12 @@
 
   .favorite.active {
     background: rgba(0, 0, 0, 0.8);
+    color: #fff;
     width: 40%;
+  }
+
+  .favorite-data {
+    color: #fff;
   }
 
   .menu-cancel-icon.show {

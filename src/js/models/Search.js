@@ -12,7 +12,7 @@ export default class Search {
       );
       this.result = res.data.recipes;
     } catch (error) {
-      alert(error);
+      alert('Cant find that recipe, seach for pizza, pasta...');
     }
   }
 }

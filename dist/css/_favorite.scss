@@ -9,7 +9,6 @@
   text-align: center;
   transition: right 0.3s ease;
   overflow: auto;
-  // color: #fff;
   color: #000;
 
   h2 {
@@ -46,7 +45,6 @@
           -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
           -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-          // box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
         }
 
         .recipe-favorite-delete {
@@ -65,8 +63,6 @@
 
       .favorite-data {
         margin: 10px 0;
-        // color: #fff;
-        color: #000;
 
         .favorite-name {
           font-family: 'Caveat', cursive;
