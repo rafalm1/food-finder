@@ -382,7 +382,8 @@ body .recipe-details .recipe-info .recipe-servings .fa-male {
 }
 
 body .recipe-details .recipe-ingredients {
-  width: 93vw;
+  max-width: 600px;
+  padding: 0 15px;
   margin: auto;
 }
 
