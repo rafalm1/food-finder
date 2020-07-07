@@ -522,7 +522,7 @@ body .favorite.active {
 @media (min-width: 1140px) {
   body .results {
     margin: 30px auto;
-    width: 45%;
+    width: 40%;
   }
   body .favorite.active {
     background: rgba(0, 0, 0, 0.8);
