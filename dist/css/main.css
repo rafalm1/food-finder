@@ -145,6 +145,10 @@ body header nav .search-cancel-icon {
   font-size: 24px;
 }
 
+body main {
+  min-height: 82vh;
+}
+
 body main .results {
   font-family: 'Open Sans', sans-serif;
 }
@@ -234,6 +238,22 @@ body .loader .fa-spinner {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+}
+
+body .footer-copyright {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 21px 0px;
+  border-top: 1px solid #525050;
+  font-size: 17px;
+}
+
+@media (max-width: 500px) {
+  body .footer-copyright {
+    font-size: 12px;
   }
 }
 

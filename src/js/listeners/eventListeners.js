@@ -6,7 +6,6 @@ const menuCancelBtn = document.querySelector('.menu-cancel-icon');
 const searchCancelBtn = document.querySelector('.search-cancel-icon');
 const items = document.querySelector('.nav-items');
 const form = document.querySelector('form');
-const favoriteList = document.querySelector('.favorite-list');
 const favorite = document.querySelector('.favorite');
 
 menuBtn.onclick = () => {

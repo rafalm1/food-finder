@@ -33,6 +33,7 @@ const controlSearch = async () => {
 elements.searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   controlSearch();
+  console.log('search');
 });
 
 // Pagination
