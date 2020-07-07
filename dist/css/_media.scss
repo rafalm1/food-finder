@@ -9,7 +9,7 @@
 @media (min-width: 1140px) {
   .results {
     margin: 30px auto;
-    width: 50%;
+    width: 45%;
   }
 
   .favorite.active {
@@ -28,6 +28,11 @@
 }
 
 @media (max-width: 1140px) {
+  .results {
+    margin: 30px auto;
+    width: 55%;
+  }
+
   header {
     nav {
       padding: 0px;
@@ -143,6 +148,11 @@
 }
 
 @media (max-width: 980px) {
+  .results {
+    margin: 30px auto;
+    width: 65%;
+  }
+
   header {
     nav {
       .menu-icon,
@@ -156,6 +166,13 @@
         right: 29px;
       }
     }
+  }
+}
+
+@media (max-width: 520px) {
+  .results {
+    margin: 30px auto;
+    width: 90%;
   }
 }
 

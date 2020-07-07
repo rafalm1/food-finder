@@ -46,7 +46,6 @@ form.addEventListener('submit', () => {
   searchBtn.classList.remove('hide');
   searchCancelBtn.classList.remove('show');
   form.classList.remove('active');
-  // document.body.style.overflow = 'hidden'; ???
 });
 
 export const hideMenu = () => {

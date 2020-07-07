@@ -38,6 +38,7 @@ body header nav .logo {
   letter-spacing: -1px;
   color: #ff5e6c;
   font-family: 'Courgette', cursive;
+  cursor: pointer;
 }
 
 body header nav .nav-items {
@@ -521,7 +522,7 @@ body .favorite.active {
 @media (min-width: 1140px) {
   body .results {
     margin: 30px auto;
-    width: 50%;
+    width: 45%;
   }
   body .favorite.active {
     background: rgba(0, 0, 0, 0.8);
@@ -537,6 +538,10 @@ body .favorite.active {
 }
 
 @media (max-width: 1140px) {
+  body .results {
+    margin: 30px auto;
+    width: 55%;
+  }
   body header nav {
     padding: 0px;
   }
@@ -639,6 +644,10 @@ body .favorite.active {
 }
 
 @media (max-width: 980px) {
+  body .results {
+    margin: 30px auto;
+    width: 65%;
+  }
   body header nav .menu-icon,
   body header nav .menu-cancel-icon,
   body header nav .search-cancel-icon,
@@ -647,6 +656,13 @@ body .favorite.active {
   }
   body header nav form {
     right: 29px;
+  }
+}
+
+@media (max-width: 520px) {
+  body .results {
+    margin: 30px auto;
+    width: 90%;
   }
 }
 
