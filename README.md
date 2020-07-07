@@ -7,4 +7,4 @@ This website is using some ideas from Jonas Schmedtmann Udemy The Complete JavaS
 Features: 
 - Searching recipes from https://forkify-api.herokuapp.com/
 - Adding/removing Recipe to favorite list
-- Persiting favorite recipes in LocalStorage
+- Persist favorite recipes in LocalStorage
