@@ -79,17 +79,3 @@ main {
     transform: rotate(360deg);
   }
 }
-
-.footer-copyright {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 21px 0px;
-  border-top: 1px solid rgb(82, 80, 80);
-  font-size: 17px;
-
-  @media (max-width: 500px) {
-    font-size: 12px;
-  }
-}
