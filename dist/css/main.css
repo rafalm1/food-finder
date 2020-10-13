@@ -355,6 +355,7 @@ body .recipe-details .recipe-fig .recipe-img-box {
   margin-bottom: 20px;
   position: relative;
   max-width: 280px;
+  margin-top: 35px;
 }
 
 body .recipe-details .recipe-fig .recipe-img-box .recipe-img {
