@@ -33,10 +33,17 @@ header {
           color: #000;
           font-size: 20px;
           text-decoration: none;
+          pointer-events: none;
 
           &:hover {
             color: color(accent);
           }
+        }
+      }
+
+      .favorite-link {
+        a {
+          pointer-events: all;
         }
       }
     }
@@ -107,4 +114,29 @@ header {
       font-size: 24px;
     }
   }
+}
+
+#info {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  padding: 30px;
+  font-size: 17px;
+  width: 300px;
+  display: block;
+
+  background-color: burlywood;
+
+  .fa-times {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 26px;
+  }
+}
+
+#info.change {
+  display: none;
 }

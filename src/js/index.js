@@ -11,4 +11,6 @@ import Favorite from './models/Favorite';
  * Favorite recipes
  */
 
+
+
 export const state = {};

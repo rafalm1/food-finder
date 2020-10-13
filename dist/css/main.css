@@ -59,10 +59,15 @@ body header nav .nav-items li a {
   color: #000;
   font-size: 20px;
   text-decoration: none;
+  pointer-events: none;
 }
 
 body header nav .nav-items li a:hover {
   color: #ff5e6c;
+}
+
+body header nav .nav-items .favorite-link a {
+  pointer-events: all;
 }
 
 body header nav form {
@@ -143,6 +148,30 @@ body header nav .menu-cancel-icon.show {
 body header nav .menu-cancel-icon,
 body header nav .search-cancel-icon {
   font-size: 24px;
+}
+
+body #info {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  padding: 30px;
+  font-size: 17px;
+  width: 300px;
+  display: block;
+  background-color: burlywood;
+}
+
+body #info .fa-times {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+body #info.change {
+  display: none;
 }
 
 body main {

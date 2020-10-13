@@ -20,6 +20,14 @@
     <title>Food Finder</title>
   </head>
 
+  <script type="text/javascript">
+
+    const closeInfo = () =>{
+     const info = document.getElementById('info');
+     info.classList.toggle('change');
+    }
+    </script>
+
   <body>
     <header>
       <nav>
@@ -63,10 +71,11 @@
         <h2>Your favorite recipes</h2>
         <ul class="favorite-list"></ul>
       </div>
-
       <div class="recipe"></div>
+      <div id="info">Search for pizza, pasta and then click for recipe to view details and click heart icon to mark recipe favorite. You can view Favorite Recipes by clicking 'Favorite' on menu item.
+        <i class="fas fa-times" onclick="closeInfo()"></i>
+      </div>
     </main>
 
-    
   </body>
 </html>
